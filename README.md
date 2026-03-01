@@ -30,18 +30,18 @@ A beautiful, live cricket score widget built with React, Tailwind CSS, and the G
 
 We have included a lightweight Electron wrapper so you can run this directly in your macOS menu bar!
 
-1. **Start the Menu Bar App:**
+1. **Start the Menu Bar App (Development Mode):**
    ```bash
-   npm run start:mac
+   npm run dev:mac
    ```
-   *This will launch the app and place a cricket icon in your Mac menu bar. Click it to view live scores!*
+   *This will start both the React server and the Electron app, placing a cricket icon in your Mac menu bar. Click it to view live scores!*
 
-2. **Build a Standalone `.app` (Optional):**
+2. **Build a Standalone `.app` (Production):**
    If you want to package this into a standalone `.app` file that you can move to your `Applications` folder:
    ```bash
    npm run build:mac
    ```
-   *The built application will be located in the `dist-electron` folder.*
+   *The built application will be located in the `dist-electron/mac` folder.*
 
 ## Running in the Browser (Web Mode)
 
