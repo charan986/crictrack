@@ -1,0 +1,5 @@
+{
+  "name": "Cricket Menu Bar Widget",
+  "description": "A macOS menu bar style widget for live cricket scores.",
+  "requestFramePermissions": []
+}
